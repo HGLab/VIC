@@ -1,0 +1,15 @@
+##This is an example of a user-specified evidence file, and can be used with "-s" option
+#CBP0 is a measure of clinical and/or experimental evidence and can be 0;1;2(no clinical evidence;potential clinical significance;strong clinical significance)
+#CBP1 is a measure of mutation types and can be 1;0 (activating, LOF (missense, nonsense, indel, splicing), CNVs, fusions;Functionally benign or unknown, mostly missense,in-frame indels, less commonly, othertypes)
+#CBP2 is a measure of variant allele fraction and can be 1;0;-1 (mosaic;nonmosaic;unsure)
+#CBP3 is a measure of potential germline and can be 1;0;-1 (nonmosaic;mosaic;unsure)
+#CBP4 is a measure of population allele frequency and can be 1;0 (low MAF; high MAF)
+#CBP5 is a measure of germline database and can be 2;1;0 (only pathogenic evidence;benign or likely benign;uncertain or contradictory)
+#CBP6 is a measure of somatic database and can be 2;1;0 (pathogenic;likely pathogenic;uncertain)
+#CBP7 is a measure of predictive software programs and can be 2;1;0 (pathogenic;uncertain or contradictory;benign or likely benign)
+#CBP8 is a measure of pathway involvement and can be 2;1;0 (cancer-associated;potential association;unclear function)
+#CBP9 is a measure of publications and can be 1;0;-1 (reported in any publications;no evidence;unsure)
+
+#Evidence file should be tab-delimited and formated like this:
+chr	start	ref	alt	user-specified-scores[Therapeutic;Mutation_type;Variant_allele_fraction;Potential_germ;Population_data;Germline_data;Somatic_data;Predict_pathogenic;Pathway_involvement;Publications]
+1	241663903	GA	-	CBP0=2;CBP1=1;CBP2=1;CBP3=-1;CBP4=1;CBP5=2;CBP6=2;CBP7=2;CBP8=2;CBP9=1

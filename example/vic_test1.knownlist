@@ -1,0 +1,4 @@
+#This is an example of user specified variants of interest by activating '-l user_specified_list' option
+#The VIC will directly take the information in the sixth column and the predictive result
+#The file should be Tab-delimited
+1	241663903	241663904	GA	-	potential significance
