@@ -3,6 +3,9 @@
 A Computational Tool for Assessing Clinical Impacts of Somatic Variants Following the AMP-ASCO-CAP 2017 Guidelines
 
 ## SYNOPSIS
+git clone https://github.com/HGLab/VIC.git
+```
+cd VIC
 ```
 java -jar target/VIC-1.0.1.jar --help
 ```
