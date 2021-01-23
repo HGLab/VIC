@@ -4,7 +4,7 @@ A Computational Tool for Assessing Clinical Impacts of Somatic Variants Followin
 
 ## SYNOPSIS
 ```
-java -jar target/VIC-1.0-jar-with-dependencies.jar --help
+java -jar target/VIC-1.0.1.jar --help
 ```
 ## WHAT DOES IT DO
 
@@ -18,11 +18,11 @@ VIC is a bioinformatics software tool for assessing clinical impacts of somatic 
 
 ## OPTIONS
 
-To see the help menu, use the program as "java -jar target/VIC-1.0-jar-with-dependencies.jar --help":
+To see the help menu, use the program as "java -jar target/VIC-1.0.1.jar --help":
 
 Notice: Your command of VIC is [--help]
 ```
-java -jar target/VIC-1.0-jar-with-dependencies.jar [-b ] [-d ] [-h] [-input_type ] [-i ] [-cancer_type ] [-convert2annovar ] [-l ] [-skip_annovar] [-o ] [-annotate_variation ] [-table_annovar ] [-s ] [-otherinfo ] [-db ]
+java -jar target/VIC-1.0.1.jar [-b ] [-d ] [-h] [-input_type ] [-i ] [-cancer_type ] [-convert2annovar ] [-l ] [-skip_annovar] [-o ] [-annotate_variation ] [-table_annovar ] [-s ] [-otherinfo ] [-db ]
 
 -annotate_variation The Annovar perl script of annotate_variation.pl
 
@@ -64,7 +64,7 @@ java -jar target/VIC-1.0-jar-with-dependencies.jar [-b ] [-d ] [-h] [-input_type
 ```
 ## EXAMPLE
 ```
-java -jar target/VIC-1.0-jar-with-dependencies.jar -annotate_variation /path/to/annotate_variation.pl -b hg19 -convert2annovar /path/to/convert2annovar.pl
+java -jar target/VIC-1.0.1.jar -annotate_variation /path/to/annotate_variation.pl -b hg19 -convert2annovar /path/to/convert2annovar.pl
 
 -table_annovar /path/to/table_annovar.pl -d /path/to/annovar/humandb -db /path/to/vicdb -i inputfile.avinput -input_type AVinput -o outputfile
 ```
