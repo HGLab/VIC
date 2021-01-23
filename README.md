@@ -3,7 +3,7 @@
 A Computational Tool for Assessing Clinical Impacts of Somatic Variants Following the AMP-ASCO-CAP 2017 Guidelines
 
 ## SYNOPSIS
-
+```
 java -jar target/VIC-1.0.1.jar --help
 ```
 ## WHAT DOES IT DO
