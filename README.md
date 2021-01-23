@@ -4,6 +4,10 @@ A Computational Tool for Assessing Clinical Impacts of Somatic Variants Followin
 
 ## SYNOPSIS
 ```
+git clone https://github.com/HGLab/VIC.git
+
+cd VIC
+
 java -jar target/VIC-1.0.1.jar --help
 ```
 ## WHAT DOES IT DO
